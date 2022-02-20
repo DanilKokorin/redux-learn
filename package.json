@@ -1,7 +1,6 @@
 {
   "name": "redux-prep",
   "version": "1.0.0",
-  "description": "",
   "main": "src/index.js",
   "private": true,
   "scripts": {
@@ -9,7 +8,7 @@
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "Vladilen Minin <vladilen.minin@gmail.com>",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^3.4.2",
@@ -18,5 +17,15 @@
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DanilKokorin/redux-learn.git"
+  },
+  "description": "",
+  "dependencies": {
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1"
   }
 }
